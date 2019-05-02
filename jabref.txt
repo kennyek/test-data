@@ -1,0 +1,28 @@
+# name
+some name
+
+# metrics file
+some metrics file
+
+# modules
+gui_api
+jabref.ui.gui
+database
+
+# mapping
+jabref.ui.gui net.sf.jabref.JabRefGUI
+jabref.ui.gui net.sf.jabref.JabRefMain
+jabref.ui.gui net.sf.jabref.collab.Change
+
+# relations
+jabref.ui.gui gui_api
+jabref.ui.gui jabref.application.preferences
+jabref.ui.gui jabref.application.domain.logic
+jabref.application.domain.model database
+
+# jar
+some-jar.jar
+
+# root-packages
+package-one
+package-two
